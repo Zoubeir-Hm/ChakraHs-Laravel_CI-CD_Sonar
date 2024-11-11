@@ -17,7 +17,7 @@
     </div>
 @endif
 {{-- @dd($participant) --}}
-    <h1>Évaluer la soumission de test test test{{ $participant->name }}</h1>
+    <h1>Évaluer la soumission de test test test teste test{{ $participant->name }}</h1>
     <form method="POST" action="{{ route('evaluations.store',$participant->id) }}">
         @csrf
         {{-- <input type="hidden" name="participant_id" value="{{ $participant->first()->id }}">
